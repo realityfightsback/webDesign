@@ -1,0 +1,52 @@
+body {
+    background: #DAD5C1;
+}
+
+header img{
+    /*img is inline, margin auto will not center if this isn't changed*/
+    display: block;
+    margin: auto;
+}
+nav {
+    margin: 5%;
+    background: #A09885;
+}
+
+article, aside{
+    background: #DAD5C1;
+
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    margin: 25 25;
+
+}
+
+
+#container {
+    background: #CBBB9B;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    clear: both;
+
+}
+#leftCol{
+    width: 56%;
+    float: left;
+}
+
+#rightCol{
+    width: 20%;
+    float: left;
+}
+
+footer {
+    background: #A09885;
+}
